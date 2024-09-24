@@ -29,7 +29,6 @@ public class SumOfPrime {
             max=m;
             min=n;
         }
-        int count =0 ;
         for(int i=(min<=1?2:min); i<max; i++){
             for(int j=2; j<i; j++){
                 if(i%j==0){
@@ -39,8 +38,6 @@ public class SumOfPrime {
             }
             if(prime == 0){
                 sum = sum+i;
-                // System.out.print(i+", ");
-                count++;
             }
             else{
                 prime = 0;
