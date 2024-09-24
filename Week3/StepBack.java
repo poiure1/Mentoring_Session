@@ -35,5 +35,6 @@ public class StepBack {
                 System.out.print(j + " ");
             }
         }
+        sc.close();
     }
 }

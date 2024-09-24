@@ -28,5 +28,6 @@ public class TextInsideOut {
         for(int i=str.length()-1; i>(str.length()-1)/2; i--){
             System.out.print(str.charAt(i));
         }
+        sc.close();
     }
 }

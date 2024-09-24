@@ -38,5 +38,6 @@ public class PatternTriangle{
             }
             System.out.println("");
         }
+        sc.close();
     }
 }

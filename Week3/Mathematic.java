@@ -39,5 +39,6 @@ public class Mathematic{
             }
             System.out.println();
         }
+        sc.close();
     }
 }

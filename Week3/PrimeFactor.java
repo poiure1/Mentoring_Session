@@ -30,5 +30,6 @@ public class PrimeFactor {
                 System.out.print("x ");
             }
         }
+        sc.close();
     }
 }
